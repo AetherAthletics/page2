@@ -1,144 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>11-ROMANS Christmas Party 2025</title>
-
-<style>
-/* internal css - for our class poster */
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background: linear-gradient(to bottom, #fff6f6, #ffffff);
-  color: #222;
-}
-
-/* header area */
-header {
-  background: #c62828;
-  color: #fff;
-  text-align: center;
-  padding: 30px 10px;
-}
-
-header h1{
-  margin:0;
-  font-size: 2.4em;
-}
-
-header p{
-  margin-top: 6px;
-}
-
-/* main content */
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 25px;
-}
-
-section{
-  max-width: 850px;
-  text-align: center;
-}
-
-/* image part */
-figure{
-  margin: 15px 0 20px 0;
-}
-figure img{
-  width:85%;
-  max-width:600px;
-  border-radius:10px;
-  box-shadow:0 3px 6px rgba(0,0,0,.2);
-}
-figcaption{
-  font-style: italic;
-  color: #444;
-  margin-top: 5px;
-}
-
-/* articles */
-article{
-  background:#fff3e0;
-  padding:18px;
-  border-radius:10px;
-  margin-top:20px;
-  box-shadow:0 3px 6px rgba(0,0,0,0.15);
-  text-align:center;
-}
-
-h2{
-  color:#2e7d32;
-  margin-top:0;
-}
-
-ul{
-  list-style:none;
-  padding:0;
-  margin:0;
-}
-ul li{
-  margin:5px 0;
-}
-
-/* footer */
-footer{
-  background:#c62828;
-  color:white;
-  text-align:center;
-  padding:15px 0;
-  margin-top:30px;
-  font-size:.9em;
-}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rove & Thread — Vintage Clothing Brand</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+  <header>
+    <div class="container brand">
+      <div class="logo">R</div>
+      <div>
+        <div style="font-weight:800">Rove & Thread</div>
+        <div style="font-size:12px;color:var(--muted)">vintage — web proj</div>
+      </div>
+    </div>
 
-<header>
-  <h1>🎄 11-ROMANS Christmas Party 2025 🎅</h1>
-  <p>Let’s end the year with joy, laughter, and great memories!</p>
-</header>
+    <nav class="container">
+      <a href="#">Home</a>
+      <a href="#">Collections</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
 
-<main>
+  <main class="container">
+    <section class="hero">
+      <div class="hero-left">
+        <h1>Casual pieces. Clean lines. Everyday wear.</h1>
+        <p>Rove & Thread is a clothing brand focusing on simple but noticeable fits. Browse our starter collection below.</p>
+        <a class="cta" href="#">See Collections</a>
+      </div>
 
-  <section>
-    <figure>
-      <!-- sample christmas image -->
-      <img src="566590496_1544988073168509_2038246160508510111_n" alt="Christmas celebration">
-      <figcaption>Get ready for a night of fun, food, and friendship!</figcaption>
-    </figure>
+      <div style="width:260px">
+        <div class="card" style="padding:0;overflow:hidden">
+          <img src="item1.jpg" alt="Sample garment" />
+        </div>
+      </div>
+    </section>
 
-    <article>
-      <h2>📅 Event Details</h2>
-      <p><strong>Date:</strong> December 20, 2025 (Saturday)</p>
-      <p><strong>Time:</strong> 5:00 PM - 10:00 PM</p>
-      <p><strong>Venue:</strong> School Gymnasium, ABC Senior High</p>
-      <p><strong>Theme:</strong> “A Magical Night of Giving and Joy”</p>
-    </article>
+    <h2 style="margin-top:40px">Featured</h2>
 
-    <article>
-      <h2>🎉 Program Highlights</h2>
-      <ul>
-        <li>🎁 Exchange Gifts</li>
-        <li>🍽️ Dinner & Snacks</li>
-        <li>🎶 Performances</li>
-        <li>📸 Photo Booth</li>
-        <li>🏆 Games & Raffle Prizes</li>
-      </ul>
-    </article>
-  </section>
-</main>
+    <div class="grid">
+      <div class="card">
+        <img src="item1.jpg" alt="Boxy Cropped Tee" />
+        <h3>Boxy Cropped Tee</h3>
+        <div class="price">₱499</div>
+      </div>
 
-<footer>
-  <p>Organized by 11-ROMANS Class Officers</p>
-  <p>Contact us: 11romans.class2025@gmail.com</p>
-  <p>© 2025 11-ROMANS | Merry Christmas!</p>
-</footer>
+      <div class="card">
+        <img src="item2.jpg" alt="Navy Blue Yankees Hoodie" />
+        <h3>Navy Blue Yankees Hoodie</h3>
+        <div class="price">₱999</div>
+      </div>
 
+      <div class="card">
+        <img src="item3.jpg" alt="Brown Leather Jacket" />
+        <h3>Brown Leather Jacket</h3>
+        <div class="price">₱1,599</div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    © Rove & Thread — Vintage Clothing Brand
+  </footer>
 </body>
 </html>
+
